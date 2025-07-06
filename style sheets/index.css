@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #090040;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.top-gap{
+    /* background-color: black; */
+    height: 3.5rem;
+    width: 100vw; 
+}
+
+.main{
+    /* background-color: aqua; */
+    height: 70vh;
+    width: 70vh;
+    margin: auto;
+}
+
+.nav-bar{
+    color: aliceblue;
+    height: 3vh;
+    width: 50vh;
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: aqua; */
+    gap: 2.5rem;
+    display: flex;
+    justify-content: flex-start
+    
+    
+}  
+
+#home-spec{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFCC00;
+    border: 0;
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+
+}
+#home-spec:hover{
+    background-color: #FFCC00;
+    color: black;
+    cursor: pointer;
+}
+
+#home{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    color: #57ffe3;
+    border: 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+#home:hover{
+    background-color: #FFCC00;
+    color: black;
+    cursor: pointer;
+}
+
+.gap{
+    height: 4vh;
+    /* background-color: cyan;ś */
+}
+
+#division{
+    height: 0.0244rem;
+    background-color: black;
+    /* color: bisque; */
+    border: 0;
+}
+
+.info-block{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    color: #B13BFF;
+}
+
+.info-block-2{
+    display: flex;
+    flex-direction: column;
+    column-gap: 0.2rem;
+    gap: 0.2rem;
+    margin: 0;
+    border: 0;
+     margin-top: 2rem;
+}
+
+
+
+#zuck{
+    height: 16vh;
+    border-radius: 1rem;
+    margin-top: 2.2rem;
+}
+
+#intro{
+    font-size: 1rem;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#intro22{
+    font-size: 1rem;
+    color: #57ffe3;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    text-justify:newspaper;
+}
+
+#home2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: 0;
+    color:#57ffe3;
+    
+}
+#home2:hover{
+    background-color:#FFCC00;
+    color: black; 
+    cursor: pointer;
+}
+#home3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: 0;
+    color:#FFCC00;
+    padding-bottom: 1rem;
+}
+#home3:hover{
+    background-color:#FFCC00;
+    color: black;
+    cursor: pointer;
+}
+
+#home4{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    border: 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #57ffe3;
+}
+#home4:hover{
+    background-color: #FF0000;
+    color: aliceblue;
+    cursor: pointer;
+}
+#home5{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    border: 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color:#FFCC00;
+}
+#home5:hover{
+    background-color:#FFCC00;
+    color: black;
+    cursor: pointer;
+}
+.gap32{
+    height: 1vh;
+    /* background-color: cyan;ś */
+}
+
+#home6{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    border: 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #57ffe3;
+    text-align: center;
+}
+
+#highlight{
+    color: #FF0000;
+    background-color: transparent;
+    border: 0;
+      font-family: 'Courier New', Courier, monospace;
+    font-size: 1.09rem;
+}
+
+#highlight2{
+   font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    color:#FFCC00; 
+    border: 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+#highlight2:hover{
+    background-color: #FFCC00;
+    color: black;
+    cursor: pointer;
+}
+/* #home6:hover{
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+} */
+
+.bottoms{
+    height: 15vh;    
+}
+
+@media (max-width: 768px) {
+    .main {
+      width: 90vw;
+      height: auto;
+      padding: 1rem;
+    }
+  
+    .nav-bar {
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+    }
+  
+    .info-block {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .info-block-2 {
+      align-items: center;
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+  
+    #zuck {
+      height: 20vh;
+      width: auto;
+      margin-top: 0.5rem;
+    }
+  
+    .year-block {
+      text-align: center;
+      padding: 0.5rem;
+    }
+  
+    .social-bar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      text-align: center;
+    }
+  
+    .top-gap, .gap, .gap32, .bottoms {
+      height: 2vh;
+    }
+  
+    #intro {
+      font-size: 0.95rem;
+    }
+  
+    button {
+      font-size: 0.9rem !important;
+      padding: 0.3rem !important;
+    }
+  }
+  
