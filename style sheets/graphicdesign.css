@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #090040;
+    color: aliceblue;
+}
+
+.heading{
+
+    text-align: center;
+    /* background-color: aliceblue;  */
+    height: 10rem;
+    width: 50vh;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+#home{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+
+    color: #000000;
+    border: 0;
+    padding: 0.6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-size: 1.3rem;
+}
+#home:hover{
+    background-color: #FFCC00;
+    color: black;
+    cursor: pointer;
+}
