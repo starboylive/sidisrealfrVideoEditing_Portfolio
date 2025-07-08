@@ -73,7 +73,7 @@ body{
     margin-top: 1rem;
     padding: 1rem;
     background-color:#FFCC00;
-    color: black;
+    color: rgb(248, 0, 0);
     font-size: 2rem;
     font-family: Helvetica, sans-serif;
     font-weight: bolder;
@@ -82,12 +82,21 @@ body{
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: #000000;
 }
 #ytlink:hover{
+    text-shadow: 2px 2px 5px red;
+    border: black;
+    color: #FFCC00;
+    border-style: solid;
+    border-width: 0.5rem; 
     background-color: #ce0000;
-    transform: scale(1.1, 1.1); 
-    transition: 0.5s;
+    transform: scale(1.0095, 1.0095); 
+    transition: 0.8s;
     cursor: pointer;
+
 }
 
 #heading333{
